@@ -17,7 +17,7 @@ def main():
 
     args = parser.parse_args()
 
-    print(language(args.text))
+    print language(args.text)
     return
 
 def language(txt):
